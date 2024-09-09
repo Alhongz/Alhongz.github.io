@@ -67,10 +67,13 @@
             padding: 20px;
             border-radius: 8px;
             transition: transform 0.2s, box-shadow 0.2s;
+            text-decoration: none;
+            color: inherit;
         }
         .task-item:hover {
             transform: scale(1.02);
             box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+            background-color: #d8e9f4;
         }
         .task-item h3 {
             margin: 0 0 10px;
@@ -79,6 +82,22 @@
         .task-item p {
             margin: 0;
             font-size: 15px;
+        }
+        .task-links {
+            margin-top: 10px;
+        }
+        .task-links a {
+            background-color: #4a90e2;
+            color: white;
+            padding: 10px 15px;
+            margin-right: 10px;
+            text-decoration: none;
+            border-radius: 5px;
+            font-size: 14px;
+            transition: background-color 0.2s;
+        }
+        .task-links a:hover {
+            background-color: #357ab8;
         }
         footer {
             text-align: center;
@@ -113,17 +132,21 @@
 
         <h2>Tugas yang Sudah Dikerjakan</h2>
         <div class="tasks">
-            <div class="task-item">
-                <h3>Tugas 1: HMTL</h3>
+            <a href="./Pemograman Web/Tugas1/Tugas 1.html" target="_blank" class="task-item">
+                <h3>Tugas 1: HTML</h3>
                 <p>Deskripsi: Membuat Website biodata sederhana hanya menggunakan HTML</p>
-            </div>
-            <div class="task-item">
+            </a>
+            <a href="./Pemograman Web/Tugas2/Tugas 2.html" target="_blank" class="task-item">
                 <h3>Tugas 2: HTML & CSS</h3>
                 <p>Deskripsi: Membuat website biodata sederhana dengan HTML dan CSS.</p>
-            </div>
+            </a>
             <div class="task-item">
                 <h3>Tugas 3: HTML, CSS & JS</h3>
                 <p>Deskripsi: Membuat Website kalkulator dan konversi angka ke huruf menggunakan HTML, CSS dan Java Script</p>
+                <div class="task-links">
+                    <a href="./Pemograman Web/Tugas3/TugasKalkulator/kalkulator.html" target="_blank">Kalkulator</a>
+                    <a href="./Pemograman Web/Tugas3/TugasHuruf/huruf.html" target="_blank">Konversi Angka</a>
+                </div>
             </div>
         </div>
     </div>
