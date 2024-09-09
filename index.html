@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pengumpulan Tugas</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #eef2f7;
+            color: #333;
+        }
+        header {
+            background-color: #4a90e2;
+            padding: 20px;
+            text-align: center;
+            color: white;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 28px;
+            letter-spacing: 1px;
+        }
+        .container {
+            max-width: 800px;
+            margin: 40px auto;
+            padding: 20px;
+            background-color: white;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        .biodata {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 15px;
+            margin-bottom: 30px;
+        }
+        .biodata div {
+            background-color: #f7f9fb;
+            padding: 15px;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+        }
+        .biodata div p {
+            margin: 0;
+            font-size: 16px;
+        }
+        .biodata div span {
+            font-weight: bold;
+        }
+        h2 {
+            font-size: 22px;
+            color: #4a90e2;
+            margin-bottom: 20px;
+            border-bottom: 2px solid #ddd;
+            padding-bottom: 5px;
+        }
+        .tasks {
+            display: grid;
+            grid-template-columns: 1fr;
+            gap: 15px;
+        }
+        .task-item {
+            background-color: #eaf1f8;
+            padding: 20px;
+            border-radius: 8px;
+            transition: transform 0.2s, box-shadow 0.2s;
+        }
+        .task-item:hover {
+            transform: scale(1.02);
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+        }
+        .task-item h3 {
+            margin: 0 0 10px;
+            color: #333;
+        }
+        .task-item p {
+            margin: 0;
+            font-size: 15px;
+        }
+        footer {
+            text-align: center;
+            margin-top: 40px;
+            color: #777;
+            font-size: 14px;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Pengumpulan Tugas</h1>
+    </header>
+
+    <div class="container">
+        <h2>Biodata</h2>
+        <div class="biodata">
+            <div>
+                <p><span>Nama:</span> Alfarisy Nafaro Gymnastiar</p>
+            </div>
+            <div>
+                <p><span>NPM:</span> 140810230020</p>
+            </div>
+            <div>
+                <p><span>Jurusan:</span> Teknik Informatika</p>
+            </div>
+            <div>
+                <p><span>Semester:</span> 3</p>
+            </div>
+        </div>
+
+        <h2>Tugas yang Sudah Dikerjakan</h2>
+        <div class="tasks">
+            <div class="task-item">
+                <h3>Tugas 1: HMTL</h3>
+                <p>Deskripsi: Membuat Website biodata sederhana hanya menggunakan HTML</p>
+            </div>
+            <div class="task-item">
+                <h3>Tugas 2: HTML & CSS</h3>
+                <p>Deskripsi: Membuat website biodata sederhana dengan HTML dan CSS.</p>
+            </div>
+            <div class="task-item">
+                <h3>Tugas 3: HTML, CSS & JS</h3>
+                <p>Deskripsi: Membuat Website kalkulator dan konversi angka ke huruf menggunakan HTML, CSS dan Java Script</p>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        &copy; 2024 Pengumpulan Tugas oleh Alfarisy Nafaro Gymnastiar
+    </footer>
+
+</body>
+</html>
